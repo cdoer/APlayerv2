@@ -12,7 +12,7 @@ class List {
         const _this = this;
         setTimeout(function () {
             _this.calcHeight();
-        }, 500);
+        }, 1000);
     }
 
     bindEvents() {
